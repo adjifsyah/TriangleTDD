@@ -35,3 +35,6 @@ workflows:
       email:
         recipients:
           - adji.firmansyah27@gmail.com # Isikan email untuk notifikasi status building.
+        notify:
+          success: true
+          failure: false
