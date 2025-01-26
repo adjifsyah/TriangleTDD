@@ -15,7 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
-        // Perubahan test trigger
+        // Perubahan test trigger lgiiiiiii
         .padding()
     }
 }
