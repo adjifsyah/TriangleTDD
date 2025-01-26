@@ -28,7 +28,7 @@ workflows:
         - pattern: 'main'
           include: true
           source: false
-    cancel_previous_builds: true
+      cancel_previous_builds: true
     artifacts:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
     publishing:
